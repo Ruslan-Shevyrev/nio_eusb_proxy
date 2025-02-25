@@ -33,7 +33,7 @@ security = HTTPBearer()
 app = FastAPI()
 
 
-def get_response(url: str) -> requests.Session():
+def get_response(url: str) -> JSONResponse:
     """
     Получает ответ
     """
